@@ -1,0 +1,14 @@
+{
+  "name": "sap.ui.core.tutorial.navigation",
+  "version": "1.0.0",
+  "description": "Sample: Navigation and Routing",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build"
+  },
+  "author": "H Tugay Birihan",
+  "license": "ISC",
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}
