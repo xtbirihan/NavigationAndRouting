@@ -7,7 +7,10 @@ sap.ui.define([
         onDisplayNotFound : function () { 
             this.getRouter().getTargets().display("notFound", {
 				fromTarget : "home" } );
-        }
+        }, 
+		onNavToEmployees : function (){
+			this.getRouter().navTo("employeeList");
+		}
     });
  
  });
